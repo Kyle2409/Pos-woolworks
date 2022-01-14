@@ -2,39 +2,39 @@ let products = JSON.parse(localStorage.getItem("products"))
   ? JSON.parse(localStorage.getItem("products"))
   : [
       {
-        title: "bananas",
-        category: "Fruit",
-        price: 9.99,
-        img: "https://i.postimg.cc/FHrjH935/banana.jpg",
+        title: "Carrots",
+        category: "Vegetable",
+        price: 7.50,
+        img: "https://i.ndtvimg.com/mt/cooks/2014-11/carrots.jpg",
       },
       {
         title: "apples",
         category: "Fruit",
-        price: 9.99,
+        price: 3.00,
         img: "https://i.postimg.cc/W4Kr8gKT/apple.jpg",
       },
       {
         title: "peaches",
         category: "Fruit",
-        price: 9.99,
+        price: 5.00,
         img: "https://i.postimg.cc/Vv9CzTNk/peach.jpg",
       },
       {
-        title: "grapes",
-        category: "Fruit",
-        price: 9.99,
-        img: "https://i.postimg.cc/SKw2Cq2K/grapes.jpg",
+        title: "Potatoes",
+        category: "Vegetable",
+        price: 8.50,
+        img: "https://www.localcrop.com.au/330-thickbox_default/potatoes-washed-1kg.jpg",
       },
       {
         title: "kiwi",
         category: "Fruit",
-        price: 9.99,
+        price: 4.99,
         img: "https://i.postimg.cc/43TbRzPP/Kiwi-Fruit.jpg",
       },
       {
         title: "oranges",
         category: "Fruit",
-        price: 9.99,
+        price: 5.50,
         img: "https://i.postimg.cc/5NKQm8Dy/Oranges.jpg",
       },
     ];
