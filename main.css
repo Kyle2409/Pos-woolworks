@@ -1,0 +1,29 @@
+#products {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+img {
+  height: 300px !important;
+  object-fit: cover;
+}
+
+.card {
+  width: calc((100% / 4) - 20px);
+  min-width: 300px;
+}
+
+.card-title {
+  text-transform: capitalize;
+}
+
+body{
+  background-image: url(https://i.postimg.cc/SswPXsNF/knife-food-wood-table.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form-label{
+  color: white;
+}
+
