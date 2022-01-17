@@ -3,7 +3,7 @@ let products = JSON.parse(localStorage.getItem("products"))
   : [
       {
         title: "Carrots",
-        category: "Vegetable",
+        category: "Vegetables",
         price: 7.50,
         img: "https://i.ndtvimg.com/mt/cooks/2014-11/carrots.jpg",
       },
@@ -21,15 +21,16 @@ let products = JSON.parse(localStorage.getItem("products"))
       },
       {
         title: "Potatoes",
-        category: "Vegetable",
+        category: "Vegetables",
         price: 8.50,
         img: "https://www.localcrop.com.au/330-thickbox_default/potatoes-washed-1kg.jpg",
       },
+      
       {
-        title: "kiwi",
+        title: "Mango",
         category: "Fruit",
         price: 4.99,
-        img: "https://i.postimg.cc/43TbRzPP/Kiwi-Fruit.jpg",
+        img: "https://i.postimg.cc/BQskKSg1/mango-1755679.jpg",
       },
       {
         title: "oranges",

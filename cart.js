@@ -44,7 +44,7 @@ function readCart(cart) {
     `;
   });
   showCartBadge();
-  document.querySelector("#cart-footer").innerHTML += `
+  document.querySelector("#cart-footer").innerHTML = `
     <h3>Total cost: R${total}</h3>
     <button class="btn btn-primary btn-lg" onclick="checkout()">
       Checkout
@@ -70,7 +70,7 @@ function updateCart(position) {
 // REMOVE
 function removeFromCart(position) {
   let confirmation = confirm(
-    "Are you sure you want to remove this product from the cart?"
+    "This item will be removed permanently, are you sure ?"
   );
 
   if (confirmation) {
@@ -88,8 +88,8 @@ function checkout() {
     }, 0)
     .toFixed(2);
   try {
-    if (parseInt(total) == 0) throw new Error("Nothing in cart");
-    let confirmation = confirm(`Total payment needed: R${total}`);
+    if (parseInt(total) == 0) throw new Error("Cart is Empty.");
+    let confirmation = confirm(`Total Amount needed: R${total}`);
     
     if (confirmation) {
       cart.length = 0;
